@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Arithmetic Board Traversal Project</title>
 </head>
 <body>
   <h1>Arithmetic Board Traversal Project</h1>
