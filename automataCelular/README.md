@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-  <h1>README: Reversible Cellular Automata</h1>
+  <h1>Reversible Cellular Automata</h1>
   <p>This project implements a reversible cellular automaton in the context of pure logic programming. The cellular automaton consists of an infinite tape that contains cells, each of which has a given color. The state of the tape evolves by applying a set of rules that determine how the colors of the cells change.</p>
   <p>In this project, we use only the colors white and black, represented by the symbols 'o' and 'x', respectively. The new color of a cell depends only on the original colors of its two neighboring cells, to the left and right. To simplify, the rules are defined based on three cells.</p>
   <p>The rules are represented by a term `r/7`, where each argument contains the resulting color for each of the possible inputs. The null rule is a default rule that applies to all cells and states that a white cell with both white neighbors remains white. The number of black cells in any state of the tape is always finite.</p>
